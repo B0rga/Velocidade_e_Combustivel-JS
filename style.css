@@ -1,13 +1,33 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
     background-color: #1C1C1C;
     color:lavender;
-    font-family: Arial;
+    font: normal 16pt 'Roboto Mono', monospace;
+    height: 100%;
 }
 
 .container{
-    border: 2px solid lavender;
-    width: 280px;
-    padding: 20px;
+    height: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+}
+
+p{
+    margin-bottom: 32px;
+}
+
+.results{
     display: flex;
     justify-content: center;
+    padding: 24px;
+    border: 2px solid lavender;
 }
